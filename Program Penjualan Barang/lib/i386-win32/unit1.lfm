@@ -1,0 +1,194 @@
+object Form1: TForm1
+  Left = 917
+  Height = 323
+  Top = 173
+  Width = 341
+  Caption = 'Form1'
+  ClientHeight = 323
+  ClientWidth = 341
+  LCLVersion = '2.2.6.0'
+  object CBKode: TComboBox
+    Left = 144
+    Height = 29
+    Top = 24
+    Width = 140
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ItemHeight = 21
+    Items.Strings = (
+      'A01'
+      'B02'
+      'C03'
+      'D04'
+    )
+    OnChange = CBKodeChange
+    ParentFont = False
+    TabOrder = 0
+  end
+  object EQTY: TEdit
+    Left = 144
+    Height = 29
+    Top = 64
+    Width = 140
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = EQTYChange
+    ParentFont = False
+    TabOrder = 1
+  end
+  object ENama: TEdit
+    Left = 144
+    Height = 29
+    Top = 104
+    Width = 140
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+  end
+  object ESubTotal: TEdit
+    Left = 144
+    Height = 29
+    Top = 184
+    Width = 140
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+  end
+  object EDiskon: TEdit
+    Left = 144
+    Height = 29
+    Top = 224
+    Width = 140
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 4
+  end
+  object ETotal: TEdit
+    Left = 144
+    Height = 29
+    Top = 264
+    Width = 140
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 5
+  end
+  object EHarga: TEdit
+    Left = 144
+    Height = 29
+    Top = 144
+    Width = 140
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Label2: TLabel
+    Left = 25
+    Height = 21
+    Top = 32
+    Width = 88
+    Caption = 'Kode Barang'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 21
+    Top = 72
+    Width = 60
+    Caption = 'Quantity'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 21
+    Top = 112
+    Width = 95
+    Caption = 'Nama Barang'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 21
+    Top = 152
+    Width = 94
+    Caption = 'Harga Satuan'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 21
+    Top = 192
+    Width = 63
+    Caption = 'Sub Total'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 24
+    Height = 21
+    Top = 232
+    Width = 48
+    Caption = 'Diskon'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 25
+    Height = 21
+    Top = 272
+    Width = 75
+    Caption = 'Total Bayar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end

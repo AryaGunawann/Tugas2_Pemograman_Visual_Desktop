@@ -1,0 +1,84 @@
+object Form1: TForm1
+  Left = 991
+  Height = 287
+  Top = 243
+  Width = 498
+  Caption = 'Form1'
+  ClientHeight = 287
+  ClientWidth = 498
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 41
+    Height = 30
+    Top = 32
+    Width = 16
+    Caption = 'N'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Segoe UI Historic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 97
+    Height = 23
+    Top = 39
+    Width = 264
+    OnChange = Edit1Change
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Button1: TButton
+    Left = 393
+    Height = 25
+    Top = 37
+    Width = 75
+    Caption = 'Hasil'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 40
+    Height = 129
+    Top = 128
+    Width = 428
+    Caption = 'Hasil'
+    ClientHeight = 109
+    ClientWidth = 424
+    TabOrder = 2
+    object Label2: TLabel
+      Left = 40
+      Height = 15
+      Top = 21
+      Width = 45
+      Caption = 'Faktorial'
+      ParentColor = False
+    end
+    object Edit2: TEdit
+      Left = 144
+      Height = 23
+      Top = 13
+      Width = 240
+      TabOrder = 0
+      Text = 'Edit2'
+    end
+    object Label3: TLabel
+      Left = 40
+      Height = 15
+      Top = 64
+      Width = 38
+      Caption = 'Jumlah'
+      ParentColor = False
+    end
+    object Edit3: TEdit
+      Left = 144
+      Height = 23
+      Top = 56
+      Width = 240
+      TabOrder = 1
+      Text = 'Edit3'
+    end
+  end
+end
